@@ -23,6 +23,10 @@ npm install --save aws-amplify@3.4.3 @aws-amplify/ui-react@1.2.1
 amplify add auth
 ```
 
+## API追加
+```
+amplify add api
+```
 
 
 
@@ -59,6 +63,9 @@ amplify status
 # デプロイ
 amplify push
 
+# API モック
+amplify mock api
+
 ```
 
 
@@ -88,3 +95,13 @@ Do you want to use the default authentication and security configuration? Defaul
  Warning: you will not be able to edit these selections.     
  How do you want users to be able to sign in? Username       
  Do you want to configure advanced settings? No, I am done.
+
+
+# API追加
+? Please select from one of the below mentioned services: GraphQL
+? Provide API name: BoyakiGql
+? Choose the default authorization type for the API Amazon Cognito User Pool     
+Use a Cognito user pool configured as a part of this project.
+? Do you want to configure advanced settings for the GraphQL API No, I am done.
+? Do you have an annotated GraphQL schema? No
+? Choose a schema template: Single object with fields (e.g., “Todo” with ID, name, description)
